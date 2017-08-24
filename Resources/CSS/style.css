@@ -29,15 +29,37 @@ h1 {
   font-weight: normal;
 }
 /*process section*/
-h2, h3 {
+h2 {
   font-size: 32px;
-  text-align: center;
 }
-.explanation p {
+h3 {
+  font-size: 23px;
+}
+p {
   font-size: 14px;
   font-weight: normal;
 }
+/*secondary heading*/
 .header2 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
   color: white;
+}
+/*footer*/
+.footer {
+  background-color: dimgray;
+  width: 100%;
+  float: left;
+  text-align: left;
+  color: white;
+}
+.footer p{
+  font-size: 11px;
+  display: inline;
+}
+.footer a {
+  text-size: 18px;
+  color: white;
+}
+.footer h4 {
+  display: inline;
 }
